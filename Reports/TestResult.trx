@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2817dc0f-56fe-462d-b75f-dc784579141c" name="carli@___CXRLOS06 2025-08-08 11:54:49" runUser="___cxrlos06\carli" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-08T11:54:49.5218289-04:00" queuing="2025-08-08T11:54:49.5218291-04:00" start="2025-08-08T11:54:44.8925165-04:00" finish="2025-08-08T11:54:57.7624844-04:00" />
+  <TestSettings name="default" id="2355dc31-17c2-48d3-8e39-714f9d00c34b">
+    <Deployment runDeploymentRoot="carli____CXRLOS06_2025-08-08_11_54_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ea0d8b71-8246-4469-ad35-14230c88f44f" testId="48668de7-717e-eff4-b216-2a59c6bb3a61" testName="EliminarFacturaDesdeListado" computerName="___CXRLOS06" duration="00:00:04.0554640" startTime="2025-08-08T11:54:45.4218751-04:00" endTime="2025-08-08T11:54:49.4773009-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea0d8b71-8246-4469-ad35-14230c88f44f">
+      <Output>
+        <StdOut>Factura eliminada correctamente.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26a58d54-b704-42c5-a1d8-3af519b032cc" testId="bfcca9a5-9aa5-a84e-e6b8-24a3e1d9de30" testName="RegistroConCantidadInvalida" computerName="___CXRLOS06" duration="00:00:02.6739289" startTime="2025-08-08T11:54:52.8145671-04:00" endTime="2025-08-08T11:54:55.4884959-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26a58d54-b704-42c5-a1d8-3af519b032cc">
+      <Output>
+        <StdOut>Mensaje del alert: Error: La cantidad debe ser mayor que 0 y el precio no puede ser negativo.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3528d8e9-90f0-4ba1-8993-33f1991ebe6d" testId="846dd681-89e5-3033-342c-df1a3513b93f" testName="LoginConCredencialesIncorrectas" computerName="___CXRLOS06" duration="00:00:01.6582079" startTime="2025-08-08T11:54:51.1560517-04:00" endTime="2025-08-08T11:54:52.8142592-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3528d8e9-90f0-4ba1-8993-33f1991ebe6d" />
+    <UnitTestResult executionId="442f6a6a-7b13-4a00-b899-62f9584f87f5" testId="bbf5b329-33c8-66cd-4935-d30f4dc3fd97" testName="LoginCorrecto" computerName="___CXRLOS06" duration="00:00:01.6756620" startTime="2025-08-08T11:54:49.4800810-04:00" endTime="2025-08-08T11:54:51.1557419-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="442f6a6a-7b13-4a00-b899-62f9584f87f5" />
+    <UnitTestResult executionId="74b4d343-f7b4-4594-83b7-6734650080f2" testId="0d8a6576-b7d3-2e4c-4689-09960e8479ab" testName="RegistroFacturaExitoso" computerName="___CXRLOS06" duration="00:00:02.2119520" startTime="2025-08-08T11:54:55.4887210-04:00" endTime="2025-08-08T11:54:57.7006715-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74b4d343-f7b4-4594-83b7-6734650080f2" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="RegistroConCantidadInvalida" storage="c:\users\carli\onedrive\desktop\p3\pruebaauto\larubiatests\larubiatests\bin\debug\net8.0\larubiatests.dll" id="bfcca9a5-9aa5-a84e-e6b8-24a3e1d9de30">
+      <Execution id="26a58d54-b704-42c5-a1d8-3af519b032cc" />
+      <TestMethod codeBase="C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="LaRubiaTests.Tests.RegistrarFacturaCantidadInvalida" name="RegistroConCantidadInvalida" />
+    </UnitTest>
+    <UnitTest name="EliminarFacturaDesdeListado" storage="c:\users\carli\onedrive\desktop\p3\pruebaauto\larubiatests\larubiatests\bin\debug\net8.0\larubiatests.dll" id="48668de7-717e-eff4-b216-2a59c6bb3a61">
+      <Execution id="ea0d8b71-8246-4469-ad35-14230c88f44f" />
+      <TestMethod codeBase="C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="LaRubiaTests.Tests.EliminarFactura" name="EliminarFacturaDesdeListado" />
+    </UnitTest>
+    <UnitTest name="LoginCorrecto" storage="c:\users\carli\onedrive\desktop\p3\pruebaauto\larubiatests\larubiatests\bin\debug\net8.0\larubiatests.dll" id="bbf5b329-33c8-66cd-4935-d30f4dc3fd97">
+      <Execution id="442f6a6a-7b13-4a00-b899-62f9584f87f5" />
+      <TestMethod codeBase="C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="LaRubiaTests.Tests.LoginExitoso" name="LoginCorrecto" />
+    </UnitTest>
+    <UnitTest name="RegistroFacturaExitoso" storage="c:\users\carli\onedrive\desktop\p3\pruebaauto\larubiatests\larubiatests\bin\debug\net8.0\larubiatests.dll" id="0d8a6576-b7d3-2e4c-4689-09960e8479ab">
+      <Execution id="74b4d343-f7b4-4594-83b7-6734650080f2" />
+      <TestMethod codeBase="C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="LaRubiaTests.Tests.RegistrarFacturaCorrecta" name="RegistroFacturaExitoso" />
+    </UnitTest>
+    <UnitTest name="LoginConCredencialesIncorrectas" storage="c:\users\carli\onedrive\desktop\p3\pruebaauto\larubiatests\larubiatests\bin\debug\net8.0\larubiatests.dll" id="846dd681-89e5-3033-342c-df1a3513b93f">
+      <Execution id="3528d8e9-90f0-4ba1-8993-33f1991ebe6d" />
+      <TestMethod codeBase="C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll" adapterTypeName="executor://nunit3testexecutor/" className="LaRubiaTests.Tests.LoginFallido" name="LoginConCredencialesIncorrectas" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="48668de7-717e-eff4-b216-2a59c6bb3a61" executionId="ea0d8b71-8246-4469-ad35-14230c88f44f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bfcca9a5-9aa5-a84e-e6b8-24a3e1d9de30" executionId="26a58d54-b704-42c5-a1d8-3af519b032cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="846dd681-89e5-3033-342c-df1a3513b93f" executionId="3528d8e9-90f0-4ba1-8993-33f1991ebe6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbf5b329-33c8-66cd-4935-d30f4dc3fd97" executionId="442f6a6a-7b13-4a00-b899-62f9584f87f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d8a6576-b7d3-2e4c-4689-09960e8479ab" executionId="74b4d343-f7b4-4594-83b7-6734650080f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 5.0.0.0: Test execution started&#xD;
+Running all tests in C:\Users\carli\OneDrive\Desktop\P3\pruebaauto\LaRubiaTests\LaRubiaTests\bin\Debug\net8.0\LaRubiaTests.dll&#xD;
+   NUnit3TestExecutor discovered 5 of 5 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.121 (98ab1f0baf455a26e57001671749c92d386ebb02) on port 50164&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 50164.&#xD;
+EliminarFacturaDesdeListado: Factura eliminada correctamente.&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.121 (98ab1f0baf455a26e57001671749c92d386ebb02) on port 50196&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 50196.&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.121 (98ab1f0baf455a26e57001671749c92d386ebb02) on port 50221&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 50221.&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.121 (98ab1f0baf455a26e57001671749c92d386ebb02) on port 50244&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 50244.&#xD;
+Mensaje del alert: Error: La cantidad debe ser mayor que 0 y el precio no puede ser negativo.&#xD;
+&#xD;
+Starting Microsoft Edge WebDriver 138.0.3351.121 (98ab1f0baf455a26e57001671749c92d386ebb02) on port 50276&#xD;
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver&#xD;
+Only local connections are allowed.&#xD;
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.&#xD;
+msedgedriver was started successfully on port 50276.&#xD;
+NUnit Adapter 5.0.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

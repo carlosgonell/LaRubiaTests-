@@ -1,0 +1,77 @@
+﻿<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <title>Reporte de Pruebas (TRX)</title>
+    <style>
+          body{font-family:Segoe UI,Arial,sans-serif;background:#0f1115;color:#e6e6e6;margin:20px}
+          h1{margin:0 0 10px 0}
+          .summary{display:flex;gap:16px;margin:12px 0 20px;flex-wrap:wrap}
+          .card{background:#1a1f2b;padding:12px 14px;border-radius:12px;min-width:180px}
+          .ok{color:#00d084;font-weight:600}
+          .fail{color:#ff5c5c;font-weight:600}
+          table{width:100%;border-collapse:collapse;background:#121622;border-radius:12px;overflow:hidden}
+          th,td{padding:10px 12px;border-bottom:1px solid #22283a}
+          th{text-align:left;background:#1a1f2b}
+          tr:hover{background:#161b28}
+          .mono{font-family:Consolas,monospace;font-size:12px;white-space:pre-wrap}
+        </style>
+  </head>
+  <body>
+    <h1>Reporte de Pruebas (TRX)</h1>
+    <div class="summary">
+      <div class="card">Total: <b>5</b></div>
+      <div class="card">Pasadas: <b class="ok">5</b></div>
+      <div class="card">Fallidas: <b class="fail">0</b></div>
+      <div class="card">Saltadas: <b>0</b></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Prueba</th>
+          <th>Clase</th>
+          <th>Resultado</th>
+          <th>Duración (s)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LoginConCredencialesIncorrectas</td>
+          <td>LaRubiaTests.Tests.LoginFallido</td>
+          <td><span class="ok">PASSED</span></td>
+          <td>00:00:01.6263380</td>
+        </tr>
+        <tr>
+          <td>EliminarFacturaDesdeListado</td>
+          <td>LaRubiaTests.Tests.EliminarFactura</td>
+          <td><span class="ok">PASSED</span></td>
+          <td>00:00:04.8441100</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="mono"><b>Output:</b>Factura eliminada correctamente.</td>
+        </tr>
+        <tr>
+          <td>LoginCorrecto</td>
+          <td>LaRubiaTests.Tests.LoginExitoso</td>
+          <td><span class="ok">PASSED</span></td>
+          <td>00:00:02.0810120</td>
+        </tr>
+        <tr>
+          <td>RegistroConCantidadInvalida</td>
+          <td>LaRubiaTests.Tests.RegistrarFacturaCantidadInvalida</td>
+          <td><span class="ok">PASSED</span></td>
+          <td>00:00:02.6477970</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="mono"><b>Output:</b>Mensaje del alert: Error: La cantidad debe ser mayor que 0 y el precio no puede ser negativo.</td>
+        </tr>
+        <tr>
+          <td>RegistroFacturaExitoso</td>
+          <td>LaRubiaTests.Tests.RegistrarFacturaCorrecta</td>
+          <td><span class="ok">PASSED</span></td>
+          <td>00:00:02.1985570</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
