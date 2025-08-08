@@ -1,7 +1,11 @@
 Proyecto de Pruebas Automatizadas – LaRubiaTests
+
+Estudiante Carlos Gonelll 2024-0038
+Maestro Kelyn Tejada Belliard y Asistente Luis Aneuris Tavarez de Jesus
+
+
 Este proyecto contiene las pruebas automatizadas del sistema La Rubia, desarrolladas en C# usando Selenium WebDriver y NUnit.
 El objetivo es validar funcionalidades clave del sistema, incluyendo login, registro de facturas y eliminación de facturas.
-
 
 
 Estructura del proyecto:
